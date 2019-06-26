@@ -6,7 +6,6 @@ from django.http import JsonResponse
 from chatterbot import ChatBot
 from chatterbot.ext.django_chatterbot import settings
 from chatterbot.trainers import ChatterBotCorpusTrainer
-from chatterbot.trainers import UbuntuCorpusTrainer
 
 CORPUS_DIR = './data/corpus'
 THRESHOLD_CONFIDENCE = 0.5
