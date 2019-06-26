@@ -60,8 +60,8 @@ TEMPLATES = [
             'context_processors': [
                 'django.template.context_processors.debug',
                 'django.template.context_processors.request',
-                'django.contrib.auth.context_processors.auth',
-                'django.contrib.messages.context_processors.messages',
+                'django.contrib.auth.context_processors.auth'
+                #'django.contrib.messages.context_processors.messages',
             ],
         },
     },
@@ -107,7 +107,7 @@ STATICFILES_DIRS = (
     ),
 )
 
-STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+#STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 SILENCED_SYSTEM_CHECKS = [
     'admin.E408',
