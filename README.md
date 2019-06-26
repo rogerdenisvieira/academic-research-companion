@@ -1,2 +1,2 @@
-# academic-research-companion
+# Academic Research Companion
 Application designed to guide undergraduate users through research journey.
